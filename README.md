@@ -1,4 +1,4 @@
-# esphome-afero [![Made for ESPHome](https://img.shields.io/badge/Made_for-ESPHome-black?logo=esphome)](https://esphome.io)  [![Discord](https://img.shields.io/discord/1452835326845517938?logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=%235865F2&color=%2399AAB5)](https://discord.gg/cRpxtjkQQ3)
+# esphome-afero [![Made for ESPHome](https://img.shields.io/badge/Made_for-ESPHome-black?logo=esphome)](https://esphome.io)  [![Discord](https://img.shields.io/discord/1452835326845517938?logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=%235865F2&color=%2399AAB5)](https://discord.gg/26tnuHEZm7)
 
 The goal of this project is to enable full local control of Afero/Hubspace devices by replacing the onboard wifi chip with an ESP32 running ESPhome for full local Home Assistant control.
 
