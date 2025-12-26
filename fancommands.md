@@ -1,10 +1,12 @@
 ## Requesting Fan Board Status (ESP -> Fan Board):
-You have to request status update by sending this:
+This is used to get the status from the Fan Board.  This is useful to see what the fan speed/mode currently is.  This can be useful if the phyiscal remote is also used to control the fan.
+
+To reqeust status, you have to send this command:
 
 - 0000 006D 0009 0000 0019 0003 0009 0003 0005 0003 001D 0003 0025 0003 0025 0003 0005 0003 0011 0003 0009 0180
  
 
-## Results from Fan Board (Fan Board -> ESP): 
+## Response from Fan Board on Status Request (step from above) (Fan Board -> ESP): 
 
 - Fan Down - Speed 1
   
@@ -79,7 +81,7 @@ You have to request status update by sending this:
   - 0000 006D 0013 0000 0019 0003 0009 0003 0005 0003 001D 0003 0025 0003 0011 0003 0011 0003 000D 0003 0009 0007 0005 0003 0025 0003 0025 0003 0025 0003 0025 0003 0025 0003 0021 0007 0005 0003 0005 0007 0009 0180
 
 ## Sending Command to Fan Board (ESP -> Fan Board):
-This was sniffed using ESPHome remote_receiver (Afero/Hubspace Controller -> ESP32).  This needs actual testing (ESP32 -> Fan Board) to see if it actually responds.
+These commands where sniffed using ESPHome remote_receiver (Afero Wifi Chip -> ESP32) and using their App.  This **still needs testing** to see if I send these commands from (ESP32 -> Fan Board) if the fan board repsonds:
 
  - Fan up - OFF
    - 0000 006D 0009 0000 0019 0003 0009 0003 0009 0003 0019 0003 0025 0003 0025 0003 0009 0003 000D 0003 0009 0180
