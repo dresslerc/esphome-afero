@@ -54,7 +54,17 @@ This is what their app looks like:
 
 <img width="332" height="693" alt="image" src="https://github.com/user-attachments/assets/718b0fb6-638e-4fe0-9d46-2fdf4b284652" />
 
+## Inspiration
+I have 1 of these HubSpace Ceiling Fans from Home Depot.  I've been using Home Assistant extensively in my home for the last 5 years (since COVID) and want all devices I buy to have local control (no cloud dependencies).
 
+I saw this project, but it requires the "cloud":
 
+https://github.com/jdeath/Hubspace-Homeassistant
+
+This is why I am attemping to reverse engineer the communication between the Afero Chip and the Fan Board.  I am by no means an expert on this topic; I am sure there are much more elegant ways of doing this... But baby steps :)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=dresslerc/esphome-afero&type=date&legend=top-left)](https://www.star-history.com/#dresslerc/esphome-afero&type=date&legend=top-left)
 
 
